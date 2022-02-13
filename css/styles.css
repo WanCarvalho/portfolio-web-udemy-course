@@ -1,3 +1,4 @@
+/*-----Root elements------*/
 body {
     margin: 0;
     text-align: center;
@@ -13,6 +14,7 @@ h1{
 
 h2{
     font-size: 2.5rem; 
+    font-weight: normal;
     font-family: 'Montserrat', sans-serif;
     color: #66BFBF;
 }
@@ -22,14 +24,14 @@ h3{
     color: #11999E;
 }
 
-.middle-container img{
-    width: 10%;
-    border-radius: 100px;
-}
-
 div{
     background-color: #E4F9F5;
     text-align: center;
+}
+
+/*-----Classes and id's-----*/
+.middle-container img{
+    border-radius: 100px;
 }
 
 .top-container{
@@ -45,7 +47,36 @@ div{
     background-color: red;
 }
 
-#bottom-container{
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.icon-img{
+    width: 10%;
+}
+
+.design-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.dev-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.bottom-container{
     margin: 0;
     width: 200px;
     height: 200px;
@@ -54,12 +85,12 @@ div{
 
 .top-cloud{
     position: absolute;
-    right: 300px;
+    right: 10%;
     top: 50px;
 }
 
 .bottom-cloud{
     position: absolute;
-    left: 300px;
+    left: 10%;
     bottom: 300px;
 }
