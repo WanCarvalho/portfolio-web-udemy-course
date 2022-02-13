@@ -14,22 +14,43 @@ h1{
 
 h2{
     font-size: 2.5rem; 
-    font-weight: normal;
+    font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     color: #66BFBF;
+    margin-top: 80px;
 }
 
 h3{
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
+    font-weight: bold;
 }
 
-div{
-    background-color: #E4F9F5;
-    text-align: center;
+hr {
+   
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    width: 5%;
+    border-width: 5px;
 }
 
 /*-----Classes and id's-----*/
+#hr1{
+    margin-top: 80px;
+}
+
+#my-bio{
+    font-weight: bold;
+    color: #40514E;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.middle-container {
+    background-color: #FFFFFF;
+}
+
 .middle-container img{
     border-radius: 100px;
 }
@@ -40,11 +61,8 @@ div{
     padding-top: 100px;
 }
 
-#middle-container{
-    margin: 0;
-    width: 200px;
-    height: 200px;
-    background-color: red;
+.mountain-img{
+    width: 38%;
 }
 
 .skills{
@@ -55,13 +73,18 @@ div{
 
 .skill-row {
     width: 50%;
-    margin: 100px auto 100px auto;
+    margin: 80px auto 80px auto;
     text-align: left;
     line-height: 2;
 }
 
 .icon-img{
     width: 10%;
+}
+
+.profile-img{
+    width: 12%;
+    margin-top: 80px;
 }
 
 .design-img {
@@ -76,11 +99,54 @@ div{
     margin-left: 30px;
 }
 
+#parag-contact{
+    margin-bottom: 70px;
+}
+
+.btn {
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+    background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
+    background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
+    background-image: -o-linear-gradient(top, #11999E, #66BFBF);
+    background-image: linear-gradient(to bottom, #11999E, #66BFBF);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+  .btn:hover {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+    background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+    text-decoration: none;
+}
+
 .bottom-container{
-    margin: 0;
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+    padding: 50px;
+    margin-top: 100px;
+    background-color: #66BFBF;
+}
+
+.footer-link{
+    text-decoration: none;
+    padding: 0 20px 0px 20px;
+    color: #11999E;
+
+}
+
+.author-name{
+    padding-top: 25px;
+    color: #FFFFFF;
+    padding-bottom: 0;
 }
 
 .top-cloud{
