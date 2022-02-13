@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*-----Root elements------*/
 body {
     margin: 0;
@@ -93,4 +94,70 @@ div{
     position: absolute;
     left: 10%;
     bottom: 300px;
+=======
+body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2{
+    font-size: 2.5rem; 
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.middle-container img{
+    width: 10%;
+    border-radius: 100px;
+}
+
+div{
+    background-color: #E4F9F5;
+    text-align: center;
+}
+
+.top-container{
+    position: relative;
+    background-color: #E4F9F5;
+    padding-top: 100px;
+}
+
+#middle-container{
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#bottom-container{
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+>>>>>>> b52511022e082e95b2e12f8121810626df8c8e45
 }
